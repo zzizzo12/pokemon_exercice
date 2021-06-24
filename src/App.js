@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Login from './components/Login';
 import Home from './components/Home';
 import Details from './components/Details';
+import DropDowmAbilitys from './components/DropDowmAbilitys';
 
 function App() {
   return (

@@ -31,6 +31,7 @@ const Home = () => {
         dispatch(setPokemon({
             pokemon: pokemonArray,
         }))
+        console.log(pokemonArray);
         setLoading(false);
     }
 
@@ -44,8 +45,9 @@ const Home = () => {
             {
                 !loading && (
                     <>
-                    <ImageSlider />
-                    <Pokemons />
+                      
+                      <ImageSlider />
+                      <Pokemons />
                     </>
                 )
             }
